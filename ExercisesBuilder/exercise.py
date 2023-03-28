@@ -32,7 +32,7 @@ class Exercise:
         return self
 
     def csv_format(self):
-        return [self.data,self.exercise,self.reps,self.weight,self.difficulty,self.restTime]
+        return [self.data, self.exercise, self.reps, self.weight, self.difficulty, self.restTime]
 
     def __str__(self):
         return self.data.__str__()+" "+self.exercise+" "+self.reps+" "+self.weight+" "+self.difficulty+" "+self.restTime+"\n"
